@@ -1,0 +1,124 @@
+{
+  "menu": {
+    "comidas": [
+      {
+        "nombre": "Ramen",
+        "precio": 65,
+        "descripcion": "Fideos instantáneos de diferentes sabores. Los toppings son por separado."
+      },
+      {
+        "nombre": "Dumplings",
+        "precio": 65,
+        "descripcion": "Empanadas de pollo con verduras acompañadas con salsa de soya. Incluye 6 piezas."
+      },
+      {
+        "nombre": "Gyosas",
+        "precio": 65,
+        "descripcion": "Empanadas de carne con verduras. Incluye 6 piezas."
+      },
+      {
+        "nombre": "Takoyaki de Queso",
+        "precio": 50,
+        "descripcion": "Comida japonesa en forma de bolita rellena de queso. Incluye 8 piezas."
+      },
+      {
+        "nombre": "Takoyaki de Cámaron",
+        "precio": 55,
+        "descripcion": "Comida japonesa en forma de bolita rellena de camarón. Incluye 8 piezas."
+      },
+      {
+        "nombre": "Mini Wonton's",
+        "precio": 40,
+        "descripcion": "Mini empanaditas de pollo con cilantro, acompañadas de sopa picosa. Incluye 7 piezas."
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "Bubble Tea frapeado de oreo",
+        "precio": 70,
+        "descripcion": "Bebida sabor galleta oreo con tapioca."
+      },
+      {
+        "nombre": "Bubble Tea frapeado de Taro",
+        "precio": 65,
+        "descripcion": "Bebida sabor taro con tapioca."
+      },
+      {
+        "nombre": "Bubble Tea frapeado de Matcha",
+        "precio": 65,
+        "descripcion": "Bebida sabor matcha con tapioca."
+      },
+      {
+        "nombre": "Bubble Tea líquido de Taro",
+        "precio": 60,
+        "descripcion": "Bebida sabor taro con tapioca (versión líquida)."
+      },
+      {
+        "nombre": "Bubble Tea líquido de Matcha",
+        "precio": 60,
+        "descripcion": "Bebida sabor matcha con tapioca (versión líquida)."
+      },
+      {
+        "nombre": "Soda Italiana sabor Fresa",
+        "precio": 50,
+        "descripcion": "Bebida gaseosa sabor fresa con perlas explosivas del mismo sabor."
+      },
+      {
+        "nombre": "Soda Italiana sabor Mora Azul",
+        "precio": 50,
+        "descripcion": "Bebida gaseosa sabor mora azul con perlas explosivas del mismo sabor."
+      },
+      {
+        "nombre": "Soda Italiana sabor Mango",
+        "precio": 50,
+        "descripcion": "Bebida gaseosa sabor mango con perlas explosivas del mismo sabor."
+      },
+      {
+        "nombre": "Calpis",
+        "precio": 30,
+        "descripcion": "Bebida japonesa con sabor parecido a la leche con un toque ácido."
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Paleta Ternurin",
+        "precio": 30,
+        "descripcion": "Paleta de fresas con crema con forma de ternurines diferentes."
+      },
+      {
+        "nombre": "Galleta Ternurin",
+        "precio": 25,
+        "descripcion": "Galleta artesanal decorada con diseños de ternurines."
+      },
+      {
+        "nombre": "Taiyaki con Mermelada y Philadelphia",
+        "precio": 60,
+        "descripcion": "Pastelito japonés en forma de pez relleno de mermelada y queso Philadelphia. Incluye 2 piezas."
+      },
+      {
+        "nombre": "Taiyaki con Nutella",
+        "precio": 60,
+        "descripcion": "Pastelito japonés en forma de pez relleno de Nutella. Incluye 2 piezas."
+      },
+      {
+        "nombre": "Taiyaki con Crema Pastelera",
+        "precio": 60,
+        "descripcion": "Pastelito japonés en forma de pez relleno de crema pastelera. Incluye 2 piezas."
+      },
+      {
+        "nombre": "Taiyaki con Jamón y queso",
+        "precio": 65,
+        "descripcion": "Pastelito japonés en forma de pez relleno de jamón y queso. Incluye 2 piezas."
+      },
+      {
+        "nombre": "Taiyaki con Pepperoni y queso",
+        "precio": 65,
+        "descripcion": "Pastelito japonés en forma de pez relleno de pepperoni y queso. Incluye 2 piezas."
+      }
+    ]
+  },
+  "metadata": {
+    "moneda": "MXN",
+    "ultima_actualizacion": "2023-11-15"
+  }
+}
