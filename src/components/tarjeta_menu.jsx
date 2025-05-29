@@ -16,7 +16,7 @@ const TarjetaMenu = () => {
                 <img className='icono-resta' src="../../public/images/icono-menos.svg" alt="icono menos" />
                 <h2 className='añadir-comida'>Añadir</h2>
                 <img  className='icono-suma' src="../../public/images/icono-mas.svg" alt="icono mas" />
-                <img className='icono-corazon' src="../../public/images/icono-corazon-rojo.svg" alt="icono corazon" />
+                <img className='icono-corazon-rojo' src="../../public/images/icono-corazon-rojo.svg" alt="icono corazon" />
             </div>
         </div>
     );

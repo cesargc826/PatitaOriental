@@ -1,65 +1,109 @@
-.contenedor-tarjeta-menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    border-radius: 26px;
-    border-color: var(--color-morado);
-    border-style: solid ;
-    border-width: 5px;
-
-    width: 500px;
-    height: auto;
+.contenedor-tarjeta-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: 5px solid var(--color-morado);
+  border-radius: 26px;
+  width: 500px;
+  height: auto;
 }
 
-.contenedor-producto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    img{
-        border-radius: 20px;
-        width: 40%;
-    }
+.contenedor-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  img {
+    border-radius: 20px;
+    width: 40%;
+  }
 }
 
-.titulo-comida{
-    font-size: 1.6rem;
+.titulo-comida {
+  font-size: 1.6rem;
 }
 
-.precio-comida{
-    padding: .5rem;
-    
+.precio-comida {
+  padding: 0.5rem;
 }
 
-.contenedor-info-producto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 2rem;
-    
+.contenedor-info-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
 }
 
-.contenedor-botones-menu{
-    display: flex;
-    justify-content: space-around;
-    border-radius: 0 0 22px 22px;
-    background-color: var(--color-rosa);
+.contenedor-botones-menu {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0 0 22px 22px;
+  background-color: var(--color-rosa);
+  padding: 1rem;
+}
+
+.descripcion-comida {
+  text-align: justify;
+}
+
+.añadir-comida {
+  color: white;
+}
+
+.icono-resta,
+.icono-suma {
+  width: 2rem;
+}
+
+/*================RESPONSIVO===============*/
+
+@media (max-width: 530px) {
+  .contenedor-tarjeta-menu {
+    border-width: 3px;
+    width: 330px;
+  }
+
+  .contenedor-producto {
     padding: 1rem;
-}
+    img {
+      border-radius: 20px;
+      width: 45%;
+    }
+  }
 
-.descripcion-comida  {
-    text-align: justify;
-}
+  .contenedor-info-producto {
+    padding-left: 1rem;
+  }
 
-.añadir-comida{
-    color: white;
-}
+  .titulo-comida {
+    font-size: 1.1rem;
+  }
 
-.icono-resta, .icono-suma{
+  .precio-comida {
+    font-size: 1rem;
+    padding: 0rem;
+  }
+
+  .descripcion-comida {
+    font-size: 0.7rem;
+  }
+
+  .contenedor-botones-menu {
+    padding: 0.7rem;
+  }
+
+  .icono-resta,
+  .icono-suma {
+    width: 1.5rem;
+  }
+
+  .icono-corazon-rojo {
     width: 2rem;
+  }
+
+  .añadir-comida{
+    font-size: 1.1rem;
+  }
 }
 
-.icono-suma{
-    width: 2.2rem;
-}
