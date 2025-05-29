@@ -1,9 +1,3 @@
-:root {
-
-  --primary-color: #425184;
-  --secondary-color: #D579AF;
-}
-
 body {
-  background-color: var(--primary-color);
+  background-color: #425184;
 }
