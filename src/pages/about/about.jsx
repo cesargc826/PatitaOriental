@@ -1,9 +1,10 @@
 import Header from "../../header"
-const About = () =>{
-   function App() {
+
+function About() {
   const myJsx = (
     <>
       <Header />
+      <h1>Historia de Patita Oriental</h1>
       <Home />
       <Footer />
     </>
@@ -11,4 +12,4 @@ const About = () =>{
   return myJsx;
 }
 
-export default App;
+export default About;
