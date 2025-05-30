@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className="patita-footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <img srcSet={patitaLogo} alt="" srcSet="" id="logo-footer"/>
+          <img srcSet={patitaLogo} alt=""  id="logo-footer"/>
         </div>
         <div className="footer-legal">
           <p>Términos y condiciones</p>
           <p className="copyright">© {new Date().getFullYear()} Patita Oriental. Todos los derechos reservados.</p>
         </div>
         <div className="logo-content">
-            <a href=""><img className="logo-social-media" srcSet= {whatsappLogo} alt="" srcSet="" /></a>
-            <a href="https://www.instagram.com/patitaoriental/"><img className="logo-social-media" srcSet={instagramLogo} alt="" srcSet="" /></a>
-            <a href="https://www.facebook.com/PatitaOriental?locale=es_LA"><img className="logo-social-media" srcSet={facebookLogo} alt="" srcSet="" /></a>
+            <a href=""><img className="logo-social-media" srcSet= {whatsappLogo} alt=""  /></a>
+            <a href="https://www.instagram.com/patitaoriental/"><img className="logo-social-media" srcSet={instagramLogo} alt="" /></a>
+            <a href="https://www.facebook.com/PatitaOriental?locale=es_LA"><img className="logo-social-media" srcSet={facebookLogo} alt=""  /></a>
         </div>
       </div>
     </footer>
