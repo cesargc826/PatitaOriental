@@ -1,0 +1,36 @@
+.perfil-de-usuario-contenedor{
+    display: flex;
+    
+}
+
+.perfil-de-Usuario-SideBar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.usuarurio-info-resumen{
+    display: flex;
+    justify-content: center;
+}
+
+.usuario-foto{
+    display: flex;
+}
+
+.direccion{
+    display: flex;
+}
+
+.form-nivel-1, .form-nivel-2, .form-nivel-3{
+    display: flex;
+}
+
+.metodos-de-pago-seccion{
+    display: flex;
+}
+
+.metodos-de-pago{
+    display: flex;
+    flex-direction: column;
+}

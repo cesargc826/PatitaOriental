@@ -1,6 +1,7 @@
+import "./profile.css";
 const Profile = () => {
   return (
-    <>
+    <div className="perfil-de-usuario-contenedor">
       <div className="perfil-de-Usuario-SideBar">
         <div>
           <h1>Información de usuario</h1>
@@ -12,6 +13,7 @@ const Profile = () => {
           <h1>Historial de pedidos</h1>
         </div>
       </div>
+
       <div className="informacion-de-usuario-seccion">
         <div className="usuarurio-info-resumen">
           <div className="usuario-foto">
@@ -68,50 +70,57 @@ const Profile = () => {
             <input type="text" id="referencias" name="referencias" required />
             <img src="#" alt="icono de editar" />
           </div>
+
+          <h2>Métodos de pago:</h2>
           <div className="metodos-de-pago-seccion">
-            <h2>Métodos de pago:</h2>
             <div className="metodos-de-pago">
-              <input
-                type="radio"
-                id="transferencia"
-                name="transferencia"
-                value="transferencia"
-                required
-              />
-              <label htmlFor="transferencia">Pago con Transferencia</label>
-
-              <input
-                type="radio"
-                id="efectivo"
-                name="efectivo"
-                value="efectivo"
-                required
-              />
-              <label htmlFor="efectivo">Pago con efectivo</label>
+              <div>
+                <label htmlFor="transferencia">Pago con Transferencia</label>
+                <input
+                  type="radio"
+                  id="transferencia"
+                  name="transferencia"
+                  value="transferencia"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="efectivo">Pago con efectivo</label>
+                <input
+                  type="radio"
+                  id="efectivo"
+                  name="efectivo"
+                  value="efectivo"
+                  required
+                />
+              </div>
             </div>
-            <div className="cambio">
-              <input
-                type="radio"
-                id="cambio"
-                name="cambio"
-                value="cambio"
-                required
-              />
-              <label htmlFor="cambio">Con cambio</label>
-
-              <input
-                type="radio"
-                id="noCambio"
-                name="noCambio"
-                value="noCambio"
-                required
-              />
-              <label htmlFor="noCambio">Sin cambio</label>
+            <div>
+              <div className="cambio">
+                <label htmlFor="cambio">Con cambio</label>
+                <input
+                  type="radio"
+                  id="cambio"
+                  name="cambio"
+                  value="cambio"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="noCambio">Sin cambio</label>
+                <input
+                  type="radio"
+                  id="noCambio"
+                  name="noCambio"
+                  value="noCambio"
+                  required
+                />
+              </div>
             </div>
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
