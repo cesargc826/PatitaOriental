@@ -1,5 +1,5 @@
 import './tarjeta_menu.css'
-const TarjetaMenu = () => {
+const TarjetaMenu = ({nombre,precio,descripcion,imagen}) => {
     return (
        
         <div className="contenedor-tarjeta-menu">
