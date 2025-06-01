@@ -54,6 +54,11 @@
 .icono-resta,
 .icono-suma {
   width: 2rem;
+  cursor: pointer;
+}
+
+.icono-corazon-rojo{
+  cursor: pointer;
 }
 
 /*================RESPONSIVO===============*/

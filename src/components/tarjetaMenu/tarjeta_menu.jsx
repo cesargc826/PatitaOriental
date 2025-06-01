@@ -1,5 +1,19 @@
 import './tarjeta_menu.css'
+import { useState } from 'react';
+
 const TarjetaMenu = ({nombre,precio,descripcion,imagen}) => {
+    const [count, setCount] = useState(1);
+    const handleIncrement = (maxValue) =>{
+        if(count < maxValue) setCount( count + 1);
+        console.log("Valor de count: " + count);
+        
+    }
+
+    const handleDecrement = (minValue) =>{
+        if(count > minValue) setCount( count -1);
+        console.log("Valor de count: " + count);
+        
+    }
     return (
        
         <div className="contenedor-tarjeta-menu">
@@ -14,9 +28,9 @@ const TarjetaMenu = ({nombre,precio,descripcion,imagen}) => {
                 </div>
             </div>
             <div className="contenedor-botones-menu">
-                <img className='icono-resta' srcSet="../../public/images/icono-menos.svg" alt="icono menos" />
+                <img className='icono-resta' srcSet="../../public/images/icono-menos.svg" alt="icono menos" onClick={() => handleDecrement(1)}/>
                 <h2 className='añadir-comida'>Añadir</h2>
-                <img  className='icono-suma' srcSet="../../public/images/icono-mas.svg" alt="icono mas" />
+                <img  className='icono-suma' srcSet="../../public/images/icono-mas.svg" alt="icono mas" onClick={()=> handleIncrement(10)} />
                 <img className='icono-corazon-rojo' srcSet="../../public/images/icono-corazon-rojo.svg" alt="icono corazon" />
             </div>
         </div>
