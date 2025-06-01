@@ -8,8 +8,8 @@ const Header = () => {
         <div className="container-fluid header-container">
         {/* <!-- Logo a la izquierda --> */}
         <a href="index.html" className="logo navbar-brand">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
            </button>
           <img id="logo-header"
             srcSet="./images/PatitaOriental_Azul_Horizontal.png"
@@ -21,16 +21,16 @@ const Header = () => {
         <nav>
           <ul>
             <li className="nav-item navegacion">
-              <a href="#">Menú</a>
+              <a href="/menu">Menú</a>
             </li >
             <li className="nav-item navegacion">
-              <a href="#">Menú Temático</a>
+              <a href="/menu2">Menú Temático</a>
             </li>
             <li className="nav-item navegacion">
-              <a href="#">Contacto</a>
+              <a href="/contacto">Contacto</a>
             </li>
             <li className="nav-item navegacion">
-              <a href="#">Sobre Nosotros</a>
+              <a href="/about">Sobre Nosotros</a>
             </li>
           </ul>
         </nav>
@@ -38,13 +38,13 @@ const Header = () => {
         {/* <!-- Iconos a la derecha --> */}
         <div>
           <a href="#">
-            <img srcSet="./images/LogoUsr.jpeg" alt="Perfil" class="iconos nav-item"></img>
+            <img srcSet="./images/LogoUsr.jpeg" alt="Perfil" className="iconos nav-item"></img>
           </a>
           <a href="#">
-            <img srcSet="./images/LogoLove.jpeg" alt="Favoritos" class="iconos nav-item"></img>
+            <img srcSet="./images/LogoLove.jpeg" alt="Favoritos" className="iconos nav-item"></img>
           </a>
           <a href="#">
-            <img srcSet="./images/LogoCart.jpeg" alt="Carrito" class="iconos nav-item"></img>
+            <img srcSet="./images/LogoCart.jpeg" alt="Carrito" className="iconos nav-item"></img>
           </a>
         </div>
       </div>
